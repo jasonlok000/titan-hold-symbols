@@ -60,3 +60,39 @@ app are counters only.
 
 Requires Android 13 or newer. It was made for the Titan 2 Elite on Android 16, and its
 built-in keyboard is the only one used by default.
+
+---
+
+# Scale Toggle
+
+One press switches the Titan 2 Elite between **phone mode** and **tablet mode** (a
+roomier, tablet-style layout). It has no screen: it flips the mode, shows `Phone mode`
+or `Tablet mode`, and closes.
+
+**It's meant to be bound to a long press of the side button.**
+
+**[⬇ Download ScaleToggle-1.0.4.apk](https://github.com/jasonlok000/titan-hold-symbols/releases/download/scaletoggle-v1.0.4/ScaleToggle-1.0.4.apk)**
+
+## Install
+
+1. **Install the APK.** If you already have Scale Toggle 1.0.2 or 1.0.3, install
+   straight over it; don't uninstall first.
+2. **Start Shizuku** (same as step 3 above). The first time you open Scale Toggle,
+   tap **Allow** when Shizuku asks.
+3. **Bind it to the side button.** In the phone's side-button settings, set
+   **Long press** to open the app **Scale Toggle**.
+4. Long-press the side button: you'll see `Tablet mode`. Long-press again for
+   `Phone mode`.
+
+Tablet mode sets the display to exactly 287 DPI, a setting tested on the Titan 2 Elite
+with WhatsApp and other apps. Phone mode goes back to the standard size. Only display
+density changes: your font size, resolution and rotation settings are left alone.
+Some open apps may redraw when you switch.
+
+## Verify the download
+
+- File: `ScaleToggle-1.0.4.apk`, version 1.0.4 (code 5), package `dev.everyonesniche.scaletoggle`
+- SHA-256: `0877b844d1979cfaac994ee67cad58371e521ac2dc4e22e2cfa9ad9d4c3b26df`
+- Signing certificate SHA-256: `4060aaece81427fb1bf94469296f7a28aa9b8101b645dacf4a2a6f64b26e60b0`
+
+Requires Android 11 or newer and Shizuku. No Internet permission.
